@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #232323;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+body .head {
+  color: wheat;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 4rem;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.normal h1 {
+  margin-left: 300px;
+  margin-top: 225px;
+  color: wheat;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+.normal .clock {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #23fe17;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 10px;
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.military h1 {
+  margin-left: 300px;
+  margin-top: 300px;
+  color: wheat;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+.military .clock24 {
+  padding-top: 50px;
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #17dffe;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 10px;
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.clock24 {
+  position: absolute;
+  top: 60%;
+  left: 43%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #17dffe;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 10px;
+  font-size: 6rem;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=styles.css.map */
